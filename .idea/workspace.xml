@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb2659b5-5328-4d41-855a-aede7651ad6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Revision.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" afterDir="false" />
@@ -25,6 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -42,14 +43,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../634-1-PatternsJava/patterns-tp1-laurentnosella" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ch.hesge.cours634.counter" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ch.hesge.cours634.counter" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ch.hesge.cours634.counter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -58,8 +77,24 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.hesge.cours634.counter" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.Main" />
+      <module name="Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Revision" />
@@ -70,6 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -111,21 +152,57 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1582448529402">
+    <state x="285" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1582530864212">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="285" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582448529402" />
+    <state x="285" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582530864212" />
     <state x="1288" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582209280114">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1288" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582209280114" />
+    <state x="756" y="383" width="408" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582528899808">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="756" y="383" width="408" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1582528899808" />
     <state x="1220" y="279" key="FileChooserDialogImpl" timestamp="1582444591881">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1220" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1582444591881" />
+    <state width="914" height="285" key="GridCell.Tab.0.bottom" timestamp="1582531422473">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582531422473" />
+    <state width="914" height="285" key="GridCell.Tab.0.center" timestamp="1582531422473">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582531422473" />
+    <state width="914" height="285" key="GridCell.Tab.0.left" timestamp="1582531422473">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582531422473" />
+    <state width="914" height="285" key="GridCell.Tab.0.right" timestamp="1582531422473">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582531422473" />
+    <state x="1255" y="462" key="ReplaceDuplicatesPrompt" timestamp="1582530614080">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1255" y="462" key="ReplaceDuplicatesPrompt/0.0.1920.1050@0.0.1920.1050" timestamp="1582530614080" />
     <state x="922" y="167" key="SettingsEditor" timestamp="1582209212065">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="922" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1582209212065" />
+    <state x="1145" y="420" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582532799059">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1145" y="420" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050@0.0.1920.1050" timestamp="1582532799059" />
+    <state x="1211" y="229" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582532804225">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1211" y="229" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582532804225" />
+    <state x="1266" y="115" width="540" height="471" key="extract.method.dialog" timestamp="1582531079652">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1266" y="115" width="540" height="471" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582531079652" />
   </component>
 </project>
