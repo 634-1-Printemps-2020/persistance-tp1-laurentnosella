@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bb2659b5-5328-4d41-855a-aede7651ad6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Revision.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Revision/ch/hesge/cours634/counter/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revision/ch/hesge/cours634/counter/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Revision/ch/hesge/cours634/counter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Revision/ch/hesge/cours634/counter/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/CounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/UpperLimitedPositiveCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/UpperLimitedPositiveCounterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <recent name="ch.hesge.cours634.counter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.CounterTest">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.Main" />
       <module name="Revision" />
@@ -95,20 +95,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Revision" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.CounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.CounterTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpperLimitedPositiveCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.UpperLimitedPositiveCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpperLimitedPositiveCounterTest.incMoreThenMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.UpperLimitedPositiveCounterTest" />
+      <option name="METHOD_NAME" value="incMoreThenMax" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CounterTest" />
+        <item itemvalue="JUnit.UpperLimitedPositiveCounterTest" />
+        <item itemvalue="JUnit.UpperLimitedPositiveCounterTest.incMoreThenMax" />
+        <item itemvalue="JUnit.CounterTest.add" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,22 +223,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1220" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1582444591881" />
-    <state width="914" height="285" key="GridCell.Tab.0.bottom" timestamp="1582531422473">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1582614692569">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582531422473" />
-    <state width="914" height="285" key="GridCell.Tab.0.center" timestamp="1582531422473">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582614692569" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1582614692569">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582531422473" />
-    <state width="914" height="285" key="GridCell.Tab.0.left" timestamp="1582531422473">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582614692569" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1582614692569">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582531422473" />
-    <state width="914" height="285" key="GridCell.Tab.0.right" timestamp="1582531422473">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582614692569" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1582614692569">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582531422473" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582614692569" />
     <state x="1255" y="462" key="ReplaceDuplicatesPrompt" timestamp="1582530614080">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

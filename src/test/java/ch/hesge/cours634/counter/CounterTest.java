@@ -7,21 +7,52 @@ import static org.junit.jupiter.api.Assertions.*;
 class CounterTest {
 
     Counter counter;
+    int testVar = 10;
 
     @Test
-    void inc() throws CounterException {
+    void initCounterPositive(){
+        counter = new Counter(testVar);
+        assertEquals(testVar,counter.getValue());
+    }
+
+    @Test
+    void initCounterNegative(){
+        counter = new Counter(-10);
+        assertEquals(-10,counter.getValue());
+    }
+
+    @Test
+    void incPositive() throws CounterException {
         counter = new Counter();
         counter.inc();
         assertEquals(1,counter.getValue());
     }
 
     @Test
-    void add() {
-        //Todo:Mise en place test sur add
+    void incNegative() throws CounterException{
+        counter = new Counter();
+        counter.add(-5);
+        counter.inc();
+        assertEquals(-4,counter.getValue());
+    }
+
+    @Test
+    void addPositive() throws CounterException {
+        counter = new Counter();
+        counter.add(testVar);
+        assertEquals(testVar,counter.getValue());
+    }
+
+    @Test
+    void addNegative() throws CounterException{
+        counter = new Counter();
+        counter.add(-10);
+        assertEquals(-10,counter.getValue());
     }
 
     @Test
     void getValue() {
-        //Todo:Mise en place test sur getValue
+        counter = new Counter(testVar);
+        assertEquals(testVar,counter.getValue());
     }
 }
